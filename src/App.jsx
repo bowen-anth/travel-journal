@@ -11,7 +11,7 @@ function App() {
     <>
       <Nav />
       {data.slice(0, MAX_CARDS).map((data) => {
-        return <Body key={data.title} data={data} />}
+        return <Body key={data.title} {...data} />}
       )}
     </>
   )

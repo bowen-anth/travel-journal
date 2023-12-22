@@ -1,7 +1,7 @@
 import React from "react"
 // import data from "../data/data.js"
 
-const Body = ({data}) => {
+const Body = ({...data}) => {
     console.log(data)
     return (
         <>
